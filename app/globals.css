@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  .delay-500 {
+    animation-delay: 500ms;
+  }
+}
