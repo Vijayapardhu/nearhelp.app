@@ -2,10 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
+  distDir: 'out',
   images: {
     unoptimized: true,
   },
-  // No basePath needed since repo name is nearhelp.app
+  trailingSlash: true,
 };
 
 export default nextConfig;
